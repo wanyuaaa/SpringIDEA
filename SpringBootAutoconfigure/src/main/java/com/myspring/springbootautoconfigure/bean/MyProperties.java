@@ -6,7 +6,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author wanyu
  * @createTime 2022-03-25 9:26
  */
-@ConfigurationProperties("myspring.auto")
+@ConfigurationProperties("myspring.auto")//指定配置文件中的识别头
 public class MyProperties {
 
     private String prefix;
